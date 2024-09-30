@@ -55,3 +55,14 @@
  .header-container{
   height: 150px;
  }
+  /* # PAGE HEADER */
+  .video-section .categoria {
+    font-weight: 400;
+    color: #a1a1a1;
+    margin: 1rem 0 0.5rem 0;
+  }
+  .video-section .title-desserts{
+  color: #4e3969;
+  margin-bottom: 1rem;
+  }
+  
