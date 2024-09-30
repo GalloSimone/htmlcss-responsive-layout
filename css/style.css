@@ -109,3 +109,35 @@
   margin: 1rem 0;
   border: 1px solid currentColor;
 }
+
+/* FOOTER */
+.page-footer {
+  text-align: center;
+  padding: 2rem 0;
+
+  color: white;
+  background-color: hsl(259.32deg 24.48% 52.75%);
+}
+.page-footer .company-name {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.page-footer .company-address {
+  font-weight: 400;
+  font-size: 1rem;
+}
+.page-footer .link-container {
+  padding: 1rem 0;
+}
+.page-footer .link-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.8rem;
+}
+
+.page-footer .link-item {
+  display: inline-block;
+
+  text-decoration: underline;
+}
