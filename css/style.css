@@ -16,6 +16,9 @@
   ul{
     list-style-type: none;
   }
+  body{
+    background-color: #f6f5f3
+  }
   
   /* # UTILS */
   
@@ -65,4 +68,44 @@
   color: #4e3969;
   margin-bottom: 1rem;
   }
-  
+  /* CARD */
+  .card{
+    background-color: white;
+    box-shadow:0px 0px 10px 2px #ddd;
+  }
+  .video{
+    width: 100%;
+    aspect-ratio: 1.75;
+  }
+  .recipe-summary-container{
+    padding: 2rem;
+  }
+  h4{
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+  }
+.video-section .summary-item{
+  margin-bottom: 1rem;
+}
+.social-media .social-media-icon{
+  display: flex;
+  justify-content: space-between;
+  display: inline;
+
+}
+.img-container{
+  width: 60%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px 2px #ddd;
+}
+.presentation-section p{
+  line-height: 2.5rem;
+  font-size: 1.2rem;
+  padding: 1rem 0 3rem 0;
+}
+.presentation-section hr {
+  width: 5rem;
+  color: hsl(31.34deg 92.63% 57.45%);
+  margin: 1rem 0;
+  border: 1px solid currentColor;
+}
